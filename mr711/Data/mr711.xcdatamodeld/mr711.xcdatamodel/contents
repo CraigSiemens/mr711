@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Boat" representedClassName="Boat" syncable="YES">
+        <attribute name="boatID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Color" inverseName="boats" inverseEntity="Color" syncable="YES"/>
+    </entity>
+    <entity name="Car" representedClassName="Car" syncable="YES">
+        <attribute name="carID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Color" inverseName="cars" inverseEntity="Color" syncable="YES"/>
+    </entity>
+    <entity name="Color" representedClassName="Color" syncable="YES">
+        <attribute name="colorID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="boats" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Boat" inverseName="color" inverseEntity="Boat" syncable="YES"/>
+        <relationship name="cars" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="color" inverseEntity="Car" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Boat" positionX="-171" positionY="-128" width="128" height="73"/>
+        <element name="Car" positionX="-171" positionY="-21" width="128" height="73"/>
+        <element name="Color" positionX="-396" positionY="-99" width="128" height="88"/>
+    </elements>
+</model>

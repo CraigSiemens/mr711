@@ -1,0 +1,62 @@
+[
+    {
+        "colorID": 0,
+        "red": 204,
+        "green": 183,
+        "blue": 145
+    },
+    {
+        "colorID": 1,
+        "red": 188,
+        "green": 243,
+        "blue": 137
+    },
+    {
+        "colorID": 2,
+        "red": 127,
+        "green": 65,
+        "blue": 11
+    },
+    {
+        "colorID": 3,
+        "red": 178,
+        "green": 236,
+        "blue": 26
+    },
+    {
+        "colorID": 4,
+        "red": 71,
+        "green": 7,
+        "blue": 94
+    },
+    {
+        "colorID": 5,
+        "red": 203,
+        "green": 102,
+        "blue": 147
+    },
+    {
+        "colorID": 6,
+        "red": 241,
+        "green": 210,
+        "blue": 33
+    },
+    {
+        "colorID": 7,
+        "red": 208,
+        "green": 255,
+        "blue": 39
+    },
+    {
+        "colorID": 8,
+        "red": 10,
+        "green": 32,
+        "blue": 123
+    },
+    {
+        "colorID": 9,
+        "red": 47,
+        "green": 211,
+        "blue": 208
+    }
+]

@@ -1,0 +1,1 @@
+PODS_MR____MAGICALRECORD_OTHER_LDFLAGS = -framework CoreData
